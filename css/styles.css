@@ -1,5 +1,11 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -11,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #47341c;
+    background-color: #271b0b;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -113,7 +119,7 @@ nav a:hover {
 }
 
 .contact h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
