@@ -135,3 +135,59 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+.coffee-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .coffee-box {
+    border: 10px solid #8d612e;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  .coffee-box h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .coffee-box p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .coffee-box .price {
+    font-style: italic;
+    float: right;
+  }
+  .pastry-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .pastry-box {
+    border: 10px solid #8d612e;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  .pastry-box h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .pastry-box p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .pastry-box .price {
+    font-style: italic;
+    float: right;
+  }
