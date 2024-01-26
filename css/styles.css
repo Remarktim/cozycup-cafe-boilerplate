@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: cursive, handwriting;
-    background-color: #fde353;
+    background-color: white;
     color: #381a09;
 }
 
@@ -38,7 +38,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #fae4d6;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -52,7 +52,7 @@ nav a:hover {
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: white;
+    color: rgb(66, 16, 16);
 }
 
 .hero h1 {
@@ -91,7 +91,7 @@ nav a:hover {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #f8c98b;
 }
 
 .about h2 {
