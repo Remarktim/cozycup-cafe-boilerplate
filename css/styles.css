@@ -1,17 +1,23 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: cursive, handwriting;
-    background-color: #fde353;
+    background-color: white;
     color: #381a09;
 }
 
 header {
-    background-color: #47341c;
+    background-color: #271b0b;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -38,7 +44,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #fae4d6;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -52,7 +58,7 @@ nav a:hover {
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: white;
+    color: rgb(66, 16, 16);
 }
 
 .hero h1 {
@@ -91,7 +97,7 @@ nav a:hover {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #f8c98b;
 }
 
 .about h2 {
@@ -113,7 +119,7 @@ nav a:hover {
 }
 
 .contact h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
@@ -129,3 +135,59 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+.coffee-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .coffee-box {
+    border: 10px solid #8d612e;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  .coffee-box h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .coffee-box p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .coffee-box .price {
+    font-style: italic;
+    float: right;
+  }
+  .pastry-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .pastry-box {
+    border: 10px solid #8d612e;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  .pastry-box h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .pastry-box p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .pastry-box .price {
+    font-style: italic;
+    float: right;
+  }
